@@ -4,18 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>BEM CSS</title>
 </head>
 <body>
     <header class="header">
         <nav class="header__nav">
-            
+            <h4 class="nav--logo">Landing</h4>
+
+            <ul class="nav--ul">
+                <li class="ul--li"><a href="" class="li__anker">Home</a></li>
+                <li class="ul--li"><a href="" class="li__anker">Features</a></li>
+                <li class="ul--li"><a href="" class="li__anker">Reviews</a></li>
+                <li class="ul--li"><a href="" class="li__anker">Pricing</a></li>
+                <li class="ul--li"><a href="" class="li__anker">FAQ</a></li>
+            </ul>
+
+            <button class="nav--getstarted">Get Started</button>
         </nav>
     </header>
 
     <main class="main">
+        <article class="main__article">
+            <h1 class="article--fly">Fly makes you faster</h1>
+            
+            <p class="article--flytext">New free template by <span class="flytext--link">uicookies.com</span>. 
+            For more templates visit the <span class="flytext--site">site</span>. 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
 
+            <button class="article--seepricing">SEE PRICING</button>
+        </article>
+
+        <aside class="main__signup">
+            <h1 class="signup__title">Sign Up for Free</h1>
+            
+            <form class="main__form" action="/action_page.php">
+                <input type="text" name="fname" placeholder="Full Name" class="form__input" required>
+                <input type="email" name="email" placeholder="Email" class="form__input" required>
+                <input type="email" name="emailP" placeholder="Email" class="form__input">
+                <div class="form__div">
+                    <p class="div--text">Type <i class="text--arrow"></i></p>
+                </div>
+                <button class="form__register" type="submit" form="main__form" value="Submit">Register</button>
+            </form>
+        </aside>
     </main>
 </body>
 </html>
