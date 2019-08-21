@@ -19,6 +19,9 @@ body {
 
 .nav--logo {
     color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 15px;
 }
 
 .nav--ul {
@@ -35,6 +38,7 @@ body {
 .li__anker {
     text-decoration: none;
     color: white;
+
 }
 
 .nav--getstarted {
@@ -51,11 +55,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 /* Main */
 .main {
     margin-left: 300px;
-    width: 700px;
+    width: 100px;
     margin-top: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr;

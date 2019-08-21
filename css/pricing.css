@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2F4FA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header2--feature {
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 60px;
+}
+
+.header2--app {
+    margin-top: -10px;
+}
+
+
+/* MAIN SECTION */
+.main {
+
+}
+
+.main__section {
+
+}
+
+.section--basic {
+
+}
+
+.section--usd {
+    font-size: 15px;
+    color: #1E82FF;
+}
+
+.usd--price {
+    font-size: 40px;
+    color: #1E82FF;
+}
+
+.usd--month {
+    color: #ADB5BD;
+}
+
+.section--desc {
+}
+
+.section--basic {
+    
+}
