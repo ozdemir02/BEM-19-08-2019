@@ -1,0 +1,17 @@
+/* Imports */
+@import url('Base/base.css');
+@import url('Base/modules.css');
+@import url('Modules/navigation-module.css');
+@import url('Modules/articleleft-module.css');
+@import url('Modules/aside-signup-module.css');
+
+
+
+/* Main */
+.main {
+    margin-left: 300px;
+    width: 100px;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

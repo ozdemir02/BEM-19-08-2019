@@ -1,0 +1,71 @@
+.main__signup {
+    margin-top: -40px;
+    margin-left: 80px;
+    width: 320px;
+    height: 360px;
+    background-color: white;
+    box-shadow: 0px 0px 46px -8px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+.signup__title {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.main__form {
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.form__input {
+    background-color: #F2F2F2;
+    padding-left: 20px;
+    border: none;
+    width: 232px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form__div {
+    margin-top: 15px;
+    width: 252px;
+    height: 35px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+.div--text {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.text--arrow {
+    position: relative;
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 200px;
+    top: -20px;
+}
+
+.form__register {
+    font-size: 15px;
+    margin-top: 20px;
+    width: 254px;
+    height: 40px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}

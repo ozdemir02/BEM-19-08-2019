@@ -1,0 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(99,106,237,1) 0%, rgba(60,176,225,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}

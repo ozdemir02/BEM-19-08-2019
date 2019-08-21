@@ -1,0 +1,40 @@
+.main__article {
+    width: 500px;
+}
+
+.article--fly {
+    color: white;
+    font-size: 60px;
+    width: 500px;
+    margin: 0;
+}
+
+.article--flytext {
+    color: white;
+    width: 360px;
+    line-height: 2;
+}
+
+.flytext--link {
+    color: #ABC3F4;
+    cursor: pointer;
+}
+
+.flytext--site {
+    color: #ABC3F4;
+    cursor: pointer;
+}
+
+.article--seepricing {
+    font-size: 11px;
+    width: 150px;
+    height: 40px;
+    background-color: #04ba49;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
